@@ -1,0 +1,36 @@
+{
+  "redshell": {
+    "module": "redshell",
+    "target": "10.10.10.103",
+    "command": "whoami",
+    "executed_at": "2025-07-26T11:33:13.185708",
+    "output": "nt authority\\system",
+    "status": "success"
+  },
+  "redcreds": {
+    "module": "redcreds",
+    "executed_at": "2025-07-26T11:33:13.185720",
+    "credentials": [
+      {
+        "user": "Administrator",
+        "hash": "aad3b435b51404eeaad3b435b51404ee:31d6cfe0d16ae931b73c59d7e0c089c0"
+      },
+      {
+        "user": "Guest",
+        "hash": "aad3b435b51404eeaad3b435b51404ee:f2c7bb8acc97f92e987a2d4087d021b1"
+      }
+    ],
+    "status": "success"
+  },
+  "redenum": {
+    "module": "redenum",
+    "target": "10.10.10.103",
+    "executed_at": "2025-07-26T11:33:13.185724",
+    "users": [
+      "Administrator",
+      "Guest",
+      "JohnDoe"
+    ],
+    "status": "success"
+  }
+}
