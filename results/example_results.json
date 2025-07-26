@@ -1,7 +1,7 @@
 {
   "redshell": {
     "module": "redshell",
-    "target": "10.10.10.103",
+    "target": "192.168.1.10",
     "command": "whoami",
     "executed_at": "2025-07-26T11:33:13.185708",
     "output": "nt authority\\system",
@@ -24,7 +24,7 @@
   },
   "redenum": {
     "module": "redenum",
-    "target": "10.10.10.103",
+    "target": "192.168.1.10",
     "executed_at": "2025-07-26T11:33:13.185724",
     "users": [
       "Administrator",
