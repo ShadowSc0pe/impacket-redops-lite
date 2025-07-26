@@ -32,7 +32,7 @@ smb_service_name = RedOpsSvc
 1. Cloner le dépôt :
 
 ```bash
-git clone https://github.com/votre-ShadowSc0pe/impacket-redops-lite.git
+git clone https://github.com/ShadowSc0pe/impacket-redops-lite.git
 cd impacket-redops-lite
 ```
 
